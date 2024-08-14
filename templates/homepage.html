@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="{{ url_for('static', filename='styles.css') }}"
+    />
+  </head>
+  <body>
+    <header>
+      <h1>Welcome to Calculate Prime Numbers</h1>
+      <br />
+    </header>
+
+    <main>
+      <p>How do I know if it's a prime number?</p>
+      <br />
+      <br />
+      <p>
+        Prime numbers are those that can only be divided by one or by
+        themselves. They are therefore the opposite of composite numbers, which
+        do, have other divisible numbers. With the Prime Numbers calculator you
+        can easily find out if a particular number is prime or not. é.
+      </p>
+      <br />
+      <br />
+
+      <p><a href="/prime">Click to discover a prime number</a></p>
+      <a href="/prime">
+        <img
+          src="../static/images/how-math"
+          alt="Imagem de matemática"
+          width="150px"
+          height="150px"
+        />
+      </a>
+    </main>
+
+    <nav id="navbar">
+      <ul>
+        <li>
+          <a href="/" class="circle"
+            ><img
+              src="{{ url_for('static', filename='images/home.png') }}"
+              alt="Home"
+            />Home</a
+          >
+        </li>
+        <li>
+          <a href="/prime" class="button"
+            ><img
+              src="{{ url_for('static', filename='images/math.png') }}"
+              alt="Prime Number"
+            />Prime Numbers</a
+          >
+        </li>
+        <li>
+          <a href="/sort" class="button"
+            ><img
+              src="{{ url_for('static', filename='images/sort.png') }}"
+              alt="Sort Numbers"
+            />Sort Numbers</a
+          >
+        </li>
+      </ul>
+    </nav>
+  </body>
+</html>

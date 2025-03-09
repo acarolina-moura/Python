@@ -1,0 +1,23 @@
+[
+    {"country": "Germany", "capital": "Berlin", "population": 83783942},
+    {"country": "France", "capital": "Paris", "population": 65273511},
+    {"country": "Italy", "capital": "Rome", "population": 60317116},
+    {"country": "Spain", "capital": "Madrid", "population": 47351567},
+    {"country": "Poland", "capital": "Warsaw", "population": 38386000},
+    {"country": "Netherlands", "capital": "Amsterdam", "population": 17407585},
+    {"country": "Belgium", "capital": "Brussels", "population": 11555997},
+    {"country": "Sweden", "capital": "Stockholm", "population": 10353442},
+    {"country": "Austria", "capital": "Vienna", "population": 8917205},
+    {"country": "Switzerland", "capital": "Bern", "population": 8654622},
+    {"country": "Norway", "capital": "Oslo", "population": 5421241},
+    {"country": "Denmark", "capital": "Copenhagen", "population": 5831404},
+    {"country": "Finland", "capital": "Helsinki", "population": 5540720},
+    {"country": "Czech Republic", "capital": "Prague", "population": 10708981},
+    {"country": "Hungary", "capital": "Budapest", "population": 9684679},
+    {"country": "Portugal", "capital": "Lisbon", "population": 10196709},
+    {"country": "Greece", "capital": "Athens", "population": 10423054},
+    {"country": "Ireland", "capital": "Dublin", "population": 5029139},
+    {"country": "Slovakia", "capital": "Bratislava", "population": 5460100},
+    {"country": "Croatia", "capital": "Zagreb", "population": 4047200}
+  ]
+  

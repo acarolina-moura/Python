@@ -1,0 +1,52 @@
+{% extends "base.html" %}
+
+{% block title %}Sort Numbers{% endblock %}
+
+{% block content %}
+
+<h1>Sort Numbers</h1>
+
+<form class="form-sort" method="POST" action="/sort">
+  <div class="container-form">
+    <div class="input-group">
+      <label for="number1" class="number-label">Number 1:</label>
+      <input type="number" name="number1" id="number1" required>
+      <label for="number2" class="number-label">Number 2:</label>
+      <input type="number" name="number2" id="number2" required>
+      <label for="number3" class="number-label">Number 3:</label>
+      <input type="number" name="number3" id="number3" required>
+      <label for="number4" class="number-label">Number 4:</label>
+      <input type="number" name="number4" id="number4" required>
+      <label for="number5" class="number-label">Number 5:</label>
+      <input type="number" name="number5" id="number5" required>
+    </div>
+    <div class="input-group2">
+      <label for="number6" class="number-label">Number 6:</label>
+      <input type="number" name="number6" id="number6" required>
+      <label for="number7" class="number-label">Number 7:</label>
+      <input type="number" name="number7" id="number7" required>
+      <label for="number8" class="number-label">Number 8:</label>
+      <input type="number" name="number8" id="number8" required>
+      <label for="number9" class="number-label">Number 9:</label>
+      <input type="number" name="number9" id="number9" required>
+      <label for="number10" class="number-label">Number 10:</label>
+      <input type="number" name="number10" id="number10" required>
+    </div>
+  </div>
+
+  <div id="sorted-numbers">
+    <span>Sorted Numbers ascending:</span>
+    {% if sorted_numbers %}
+      <p>{{ sorted_numbers }}</p>
+    {% endif %}
+  </div>
+
+  <button class="btn-sort" type="submit">Sort numbers</button>
+</form>
+
+<form id="clear-form" method="POST" action="/clear">
+  <button class="btn-delete-sort" type="submit">Delete</button>
+</form>
+
+{% endblock %}
+
